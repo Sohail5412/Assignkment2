@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.list-view-cell {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
